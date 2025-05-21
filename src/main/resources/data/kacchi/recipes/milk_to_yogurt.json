@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    { "item": "minecraft:milk_bucket" }
+  ],
+  "result": {
+    "item": "kacchi:yogurt",
+    "count": 1
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 2400
+}
