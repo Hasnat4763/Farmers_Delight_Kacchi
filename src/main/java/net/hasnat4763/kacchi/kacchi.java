@@ -48,6 +48,9 @@ public class kacchi {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.MASALA);
         }
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
+            event.accept(ModItems.YOGURT);
+        }
 
     }
 
