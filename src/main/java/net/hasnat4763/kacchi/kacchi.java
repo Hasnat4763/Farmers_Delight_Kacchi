@@ -1,8 +1,8 @@
 package net.hasnat4763.kacchi;
 
 import com.mojang.logging.LogUtils;
+import net.hasnat4763.kacchi.item.ModCreativeModeTabs;
 import net.hasnat4763.kacchi.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -11,7 +11,6 @@ import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -27,6 +26,7 @@ public class kacchi {
 
     public kacchi(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
 
@@ -37,7 +37,6 @@ public class kacchi {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-
     }
 
     // Add the example block item to the building blocks tab
@@ -51,7 +50,21 @@ public class kacchi {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
             event.accept(ModItems.YOGURT);
         }
-
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
+            event.accept(ModItems.CHICKBIR);
+        }
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
+            event.accept(ModItems.MACHVAAT);
+        }
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS){
+            event.accept(ModItems.PANTAVAAT);
+        }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.CUP);
+        }
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+            event.accept(ModItems.UNCOOKEDCUP);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

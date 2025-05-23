@@ -1,5 +1,11 @@
 {
   "item.kacchi.kacchi" : "Kacchi Biryani",
   "item.kacchi.masala" : "Radhuni Special Kacchi Masala",
-  "item.kacchi.yogurt" : "Doi"
+  "item.kacchi.yogurt" : "Doi",
+  "item.kacchi.machvaat" : "Mach Vaat",
+  "item.kacchi.cup" : "Matir Cup",
+  "item.kacchi.uncookedcup": "Unfinished Cup",
+  "item.kacchi.chickenbiryani": "Chicken Biryani",
+  "item.kacchi.pantavaat" : "Panta Vaat",
+  "creativetab.kacchi_tab" : "Farmers Delight: Kacchi"
 }

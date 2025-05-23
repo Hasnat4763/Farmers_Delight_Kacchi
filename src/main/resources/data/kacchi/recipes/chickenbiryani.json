@@ -1,19 +1,18 @@
 {
   "type": "farmersdelight:cooking",
   "ingredients": [
-    { "item": "farmersdelight:mutton_chops" },
-    { "item": "farmersdelight:rice" },
+    { "item": "farmersdelight:cooked_chicken_cuts" },
+    { "item": "farmersdelight:cooked_rice" },
     { "item": "minecraft:potato" },
     { "item": "farmersdelight:onion" },
-    { "item": "farmersdelight:tomato" },
-    {"item":  "kacchi:masala"}
+    { "item": "farmersdelight:tomato" }
   ],
   "result": {
-    "item": "kacchi:kacchi",
+    "item": "kacchi:chickenbiryani",
     "count": 1
   },
   "container": {
     "item": "minecraft:bowl"
   },
-  "cookingtime": 400
+  "cookingtime": 200
 }
