@@ -2,6 +2,6 @@
 
 # Farmer's Delight: Kacchi
 
-It is an addon for the famous mod "Farmer's Delight" which adds famous Bangladeshi food "Kacchi Biryani".
+It is an addon for the famous mod "Farmer's Delight" which adds famous Bangladeshi/Bengali foods
 
 If you have any issues just email me or make a new issue in this repository.
